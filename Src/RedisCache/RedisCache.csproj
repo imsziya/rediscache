@@ -7,8 +7,11 @@
 		<Description>A Redis cache application typically involves utilizing Redis as a high-performance, in-memory data store to improve the speed and efficiency of data access in various types of applications.</Description>
 		<PackageProjectUrl>https://github.com/imsziya/rediscache</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/imsziya/rediscache</RepositoryUrl>
+		<PackageLicenseUrl>https://github.com/imsziya/rediscache/license</PackageLicenseUrl>
 		<PackageTags>redis-cache redis dotnet dotnet package nuget package</PackageTags>
 		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
