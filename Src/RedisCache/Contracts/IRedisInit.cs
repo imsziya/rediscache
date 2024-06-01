@@ -2,10 +2,9 @@
 
 using StackExchange.Redis;
 
-namespace RedisCache.Contracts
+namespace RedisCache.Contracts;
+
+public interface IRedisInit
 {
-    public interface IRedisInit
-    {
-        IDatabase Init();
-    }
+    IDatabase Init();
 }
