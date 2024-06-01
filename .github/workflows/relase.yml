@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 2.1
     - name: Build the project
-      run: dotnet build ./Src --configuration Release --no-restore
+      run: dotnet build --configuration Release --no-restore
       
     - name: Restore dependencies
       run: dotnet restore ./Src/RedisCache/RedisCache.csproj -s ${{ secrets.NUGET_URL }} --ignore-failed-sources 
